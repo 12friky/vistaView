@@ -2,12 +2,12 @@ import React from "react";
 import "./testimonies.css";
 
 // Import profile images - replace with your actual images
-import Client1 from "../../assets/images/cadastary.jpg";
-import Client2 from "../../assets/images/gisAndMapping.jpg";
-import Client3 from "../../assets/images/construction.png";
-import Client4 from "../../assets/images/image1.jpg";
-import Client5 from "../../assets/images/dronSurvery.jpg";
-import Client6 from "../../assets/images/cadastary.jpg";
+import Client1 from "../../assets/images/testifive.jpeg";
+import Client2 from "../../assets/images/testifour.jpeg";
+import Client3 from "../../assets/images/testithree.jpeg";
+import Client4 from "../../assets/images/testitwo.jpeg";
+import Client5 from "../../assets/images/testione.jpeg";
+import Client6 from "../../assets/images/testisix.jpeg";
 
 const Testimonials = () => {
   const testimonials = [

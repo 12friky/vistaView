@@ -1,10 +1,17 @@
 import React from "react";
 import "./services.css";
 
-import Image1 from "../../assets/images/indenture.avif";
-import Image2 from "../../assets/images/layout.jpeg";
-import Image3 from "../../assets/images/mindsurvey.jpg";
+import Image1 from "../../assets/images/dronSurvery.jpg";
+import Image2 from "../../assets/images/enginsurvey.jpeg";
+import Image3 from "../../assets/images/cadastary.jpg";
 import Image4 from "../../assets/images/boundary.avif";
+import Image5 from "../../assets/images/mindsurvey.jpg";
+import Image6 from "../../assets/images/gisAndMapping.jpg";
+import Image7 from "../../assets/images/site1.jpeg";
+import Image8 from "../../assets/images/consultant.jpeg";
+
+
+
 
 export default function Services() {
   return (
@@ -14,92 +21,97 @@ export default function Services() {
       <div className="services-header">
         <h2>Our Professional Services</h2>
         <p className="miniheading">
-          We offer a comprehensive range of engineering and surveying services to meet all your <br />
-          project needs.
+          We provide a complete range of surveying, engineering, and design solutions
+          to support land, construction, and development projects.
         </p>
       </div>
 
       {/* SERVICES GRID */}
       <div className="services-grid">
 
+        {/* Cadastral Survey */}
         <div className="service-card">
           <img src={Image3} alt="Cadastral Survey" />
           <h3>Cadastral Survey</h3>
           <p>
-            Professional land surveying to establish precise property boundaries with legal accuracy.
-            Our surveys are recognized by all land registration authorities in Ghana.
+            We deliver accurate boundary surveys for land ownership, documentation,
+            and registration. Our cadastral surveys comply with all GIS and Lands
+            Commission standards in Ghana.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Engineering Survey */}
         <div className="service-card">
-          <img src={Image2} alt="Land Registration" />
-          <h3>Land Registration</h3>
+          <img src={Image2} alt="Engineering Survey" />
+          <h3>Engineering Survey</h3>
           <p>
-            Assistance with land title registration, documentation processing, and navigating legal
-            requirements for property ownership in Ghana.
+            High-precision surveying for construction projects, road works,
+            building layouts, setting out, and structural alignment to ensure
+            engineering accuracy from start to finish.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Drone Survey */}
         <div className="service-card">
-          <img src={Image1} alt="Indenture" />
-          <h3>Indenture</h3>
+          <img src={Image1} alt="Drone Survey" />
+          <h3>Drone Survey</h3>
           <p>
-            Preparation and processing of legally binding documents for property transfers, leases,
-            and other real estate transactions.
+            We utilize drone technology to capture aerial maps, 3D models, and
+            elevation data, providing fast and reliable insights for large land
+            areas and development planning.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Mine Survey */}
         <div className="service-card">
-          <img src={Image4} alt="Boundary Location" />
-          <h3>Site/Boundary Location</h3>
+          <img src={Image5} alt="Mine Survey" />
+          <h3>Mine Survey</h3>
           <p>
-            Accurate marking and documentation of property boundaries using GPS and traditional
-            surveying methods to prevent disputes.
+            Professional mine surveying for exploration, excavation monitoring,
+            volume measurement, and safety compliance within mining operations.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Architectural Design */}
         <div className="service-card">
-          <img src={Image4} alt="Boundary Location" />
-          <h3>Site/Boundary Location</h3>
+          <img src={Image4} alt="Architectural Design" />
+          <h3>Architectural Design</h3>
           <p>
-            Accurate marking and documentation of property boundaries using GPS and traditional
-            surveying methods to prevent disputes.
+            Creative and functional building design services including floor plans,
+            3D visualizations, and structural layouts tailored to client needs.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* GIS and Mapping */}
         <div className="service-card">
-          <img src={Image4} alt="Boundary Location" />
-          <h3>Site/Boundary Location</h3>
+          <img src={Image6} alt="GIS and Mapping" />
+          <h3>GIS and Mapping</h3>
           <p>
-            Accurate marking and documentation of property boundaries using GPS and traditional
-            surveying methods to prevent disputes.
+            Advanced mapping services using GIS technology for spatial analysis,
+            map creation, land use planning, and data visualization.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Site/Boundary Location */}
         <div className="service-card">
-          <img src={Image4} alt="Boundary Location" />
-          <h3>Site/Boundary Location</h3>
+          <img src={Image7} alt="Boundary Location" />
+          <h3>Site / Boundary Location</h3>
           <p>
-            Accurate marking and documentation of property boundaries using GPS and traditional
-            surveying methods to prevent disputes.
+            Accurate physical demarcation of land boundaries using GPS and
+            traditional surveying methods to prevent disputes and support land
+            development.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
+        {/* Consultation Works */}
         <div className="service-card">
-          <img src={Image4} alt="Boundary Location" />
-          <h3>Site/Boundary Location</h3>
+          <img src={Image8} alt="Consultation Works" />
+          <h3>Consultation Works</h3>
           <p>
-            Accurate marking and documentation of property boundaries using GPS and traditional
-            surveying methods to prevent disputes.
+            Expert advisory services on land issues, engineering projects,
+            documentation processes, project planning, and professional guidance
+            for both individuals and companies.
           </p>
-          {/* <button className="service-btn">✉ Request Service</button> */}
         </div>
 
       </div>

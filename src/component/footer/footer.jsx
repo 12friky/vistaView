@@ -56,7 +56,7 @@ const Footer = () => {
                   <span className="logo-text">VistaView Engineering Consult </span>
                 </div>
                 <p className="company-description">
-                  Home of Quality Engineering Services. Providing professional surveying, architectural, and land administration solutions across Ghana since 2021. www.wbaconsultgh.com
+                  Home of Quality Engineering Services. Providing professional surveying, architectural, and land administration solutions across Ghana since 2021.
                 </p>
                 <div className="social-links">
                   <a href="#" className="social-link">

@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+git add .
+git commit -m "Fix the pictures and some text" 
+git push
+
 
 node_modules
 dist

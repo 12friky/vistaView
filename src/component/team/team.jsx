@@ -2,14 +2,14 @@ import React from "react";
 import "./team.css";
 
 // Import local team member images
-import AsomaniWilliams from "../../assets/images/construction.png";
+import AsomaniWilliams from "../../assets/images/image2.jpg";
 import JosephCharway from "../../assets/images/image1.jpg";
-import ChristabelBoohemaa from "../../assets/images/layout.jpeg";
+import ChristabelBoohemaa from "../../assets/images/enginlady.jpeg";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Asomani Williams",
+      name: "Alhassan Abdulai",
       position: "Principal Surveyor & Founder",
       experience: "5+ years experience in cadastral surveying",
       image: AsomaniWilliams,

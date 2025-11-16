@@ -21,7 +21,7 @@ export default function MissionVisionValues() {
           <h3 className="mvv-title">Vision</h3>
           <p className="mvv-text">
             To be recognized and respected as the leading Geo-Spatial
-            Company in Africa and beyond.
+            Company in Ghana and beyond.
           </p>
         </div>
       </div>

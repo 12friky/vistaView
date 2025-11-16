@@ -3,7 +3,7 @@ import "./contact.css";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    const whatsappLink = "https://wa.me/233599422525";
+    const whatsappLink = "https://wa.me/0246406528";
     window.open(whatsappLink, "_blank");
   };
 
@@ -28,21 +28,21 @@ const Contact = () => {
                 <div className="contact-details">
                   <div className="contact-item">
                     <h3 className="detail-title">Phone</h3>
-                    <p className="detail-content">0208 888 489</p>
-                    <p className="detail-content">0857 800 447</p>
-                    <p className="detail-content">9209 937 138</p>
+                    <p className="detail-content">0246406528</p>
+                    <p className="detail-content">0509581314</p>
+                    {/* <p className="detail-content">9209 937 138</p> */}
                   </div>
 
                   <div className="contact-item">
                     <h3 className="detail-title">Email</h3>
-                    <p className="detail-content">williamtshightose@gmail.com</p>
+                    <p className="detail-content">abdulai.alh8989@gmail.com</p>
                   </div>
 
                   <div className="contact-item">
                     <h3 className="detail-title">Office</h3>
-                    <p className="detail-content">Wantedx Junction, Asamantese</p>
-                    <p className="detail-content">Twile Prosa</p>
-                    <p className="detail-content">Central Region</p>
+                    <p className="detail-content">Tarkwa Ghana </p>
+                    <p className="detail-content">Tamso</p>
+                    <p className="detail-content">Western North Region</p>
                   </div>
 
                   <div className="contact-item">

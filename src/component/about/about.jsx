@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./about.css";
-import AboutImage from "../../assets/images/about image.jpg";
+import AboutImage from "../../assets/images/image2.jpg";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -118,16 +118,12 @@ const About = () => {
               
               <div className="about-text">
                 <p>
-                  VISTAVIEW ENGINEERING CONSULT is a leading survey company located in the heart of Accra, Ghana West Africa. 
-                  We deliver a wide array of services from land surveys to geographical intelligence, valuation, 
-                  civil, environmental and marine engineering.
+                  VISTAVIEW ENGINEERING CONSULT  is a premier provider of geospatial and land surveying solutions, dedicated to delivering precise, reliable, and actionable data and results to our clients. 
+                  We specialize in a wide range of services including cadastral (land boundary) surveys, topographic mapping, construction set-out, engineering design, and GIS consultancy.
                 </p>
                 
-                
-                  Incorporated 1994 in Ghana, it is a corporate member of Ghana Institution of Surveyors (GhIs). 
-                  It has its Head office in Accra- Ghana, Papao House No. 20 Haatso. Our years of experience in 
-                  the industry are evident in the quality of services we provide to our valued clients in Ghana, 
-                  Africa and beyond.
+                By leveraging advanced technology and the expertise of our seasoned professionals, we empower architects, developers, engineers, and government agencies to make informed decisions, mitigate risk, and ensure the successful and efficient execution of their projects from conception to completion.
+
                 
               </div>
 
