@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecentProject.css";
+import "./recentProject.css";
 
 // Import your project images - replace these with your actual images
 import Project1 from "../../assets/images/recent1.jpeg";
