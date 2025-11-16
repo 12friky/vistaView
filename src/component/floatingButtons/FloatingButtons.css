@@ -1,0 +1,171 @@
+/* WhatsApp Button - Fixed Left */
+.floating-whatsapp-btn {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.floating-whatsapp-btn:hover {
+  background: #20BA5A;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.floating-whatsapp-btn:active {
+  transform: scale(0.95);
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 70px;
+  background: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.floating-whatsapp-btn:hover .whatsapp-tooltip {
+  opacity: 1;
+}
+
+.whatsapp-tooltip::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-left-color: #333;
+}
+
+/* Scroll to Top Button - Fixed Right */
+.floating-scroll-top-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: #0d3b8e;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(13, 59, 142, 0.4);
+  transition: all 0.3s ease;
+  color: white;
+  animation: fadeInUp 0.3s ease;
+}
+
+.floating-scroll-top-btn:hover {
+  background: #1e56b0;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(13, 59, 142, 0.6);
+}
+
+.floating-scroll-top-btn:active {
+  transform: translateY(-2px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .floating-whatsapp-btn {
+    width: 55px;
+    height: 55px;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .floating-scroll-top-btn {
+    width: 45px;
+    height: 45px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .whatsapp-tooltip {
+    display: none;
+  }
+
+  .floating-whatsapp-btn svg,
+  .floating-scroll-top-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-whatsapp-btn {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .floating-scroll-top-btn {
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .floating-whatsapp-btn svg,
+  .floating-scroll-top-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Ensure buttons don't overlap with footer on mobile */
+@media (max-width: 768px) {
+  .floating-whatsapp-btn {
+    bottom: 90px;
+  }
+  
+  .floating-scroll-top-btn {
+    bottom: 90px;
+  }
+}
+
+/* Prevent buttons from overlapping navigation on very small screens */
+@media (max-width: 480px) {
+  .floating-whatsapp-btn {
+    bottom: 80px;
+  }
+  
+  .floating-scroll-top-btn {
+    bottom: 80px;
+  }
+}
+

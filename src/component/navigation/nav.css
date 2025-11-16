@@ -402,18 +402,66 @@
   }
   
   @media (max-width: 480px) {
+    .top-contact-bar {
+      padding: 8px 0;
+      font-size: 11px;
+    }
+    
+    .top-contact-bar .container {
+      padding: 0 10px;
+    }
+    
     .contact-info {
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
     }
     
     .contact-info span {
-      font-size: 12px;
+      font-size: 11px;
     }
     
-    /* .company-name {
+    .social-links {
+      gap: 8px;
+    }
     
-    } */
+    .social-text {
+      display: none;
+    }
+    
+    .nav .container {
+      padding: 0 10px;
+    }
+    
+    .logo {
+      max-width: 40px;
+    }
+    
+    .nav-links {
+      width: 260px;
+      left: -260px;
+    }
+    
+    .nav-links a,
+    .dropdown-toggle {
+      padding: 12px 20px;
+      font-size: 15px;
+    }
+    
+    .dropdown-menu a {
+      padding: 10px 20px 10px 30px;
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .nav-links {
+      width: 100%;
+      left: -100%;
+    }
+    
+    .top-contact-bar {
+      font-size: 10px;
+    }
   }
   
   /* High contrast mode support */
