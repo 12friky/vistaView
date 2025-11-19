@@ -8,7 +8,7 @@ const About = () => {
   
   // Stats data with target values
   const stats = [
-    { number: 2, label: "Years Experience" },
+    { number: '', label: "With years of Experience" },
     { number: 50, label: "Projects Completed" },
     { number: 98, label: "Client Satisfaction" },
     { number: 25, label: "Professional Staff" }
@@ -132,7 +132,7 @@ const About = () => {
                 {animatedStats.map((stat, index) => (
                   <div key={index} className="stat-item">
                     <span className="stat-number">
-                      {stat.label.includes("Satisfaction") ? `${stat.currentNumber}%` : `${stat.currentNumber}+`}
+                      {stat.label.includes("Satisfaction") ? `${stat.currentNumber}%` : `${stat.currentNumber}`}
                     </span>
                     <span className="stat-label">{stat.label}</span>
                   </div>
